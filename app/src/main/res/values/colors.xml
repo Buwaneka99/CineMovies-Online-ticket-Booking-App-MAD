@@ -8,4 +8,5 @@
     <color name="testColor">#1A1E40</color>
     <color name="nev_bar_bg_color">#8692F7</color>
     <color name="nev_bar_icon_color">#D2D2D2</color>
+    <color name="textColorThird">#B4AAE4</color>
 </resources>

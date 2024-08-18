@@ -13,8 +13,11 @@
         android:theme="@style/Theme.CineTicketsMAD"
         tools:targetApi="31">
         <activity
-            android:name=".ProfileActivity"
+            android:name=".SeatActivity"
             android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="true" />
         <activity
             android:name=".SigninActivity"
             android:exported="true" />

@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/nev_bar_bg_color"
+    android:background="@color/bgPrimaryColor"
     tools:context=".ProfileActivity">
 
     <ScrollView
@@ -26,7 +26,7 @@
                 android:layout_height="300dp">
 
                 <ImageView
-                    android:id="@+id/imageView3"
+                    android:id="@+id/backBtn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="24dp"
@@ -43,12 +43,13 @@
                     android:layout_marginEnd="176dp"
                     android:text="Profile"
                     android:textAlignment="center"
-                    android:textSize="20sp"
+                    android:textColor="@color/textColorThird"
+                    android:textSize="24sp"
                     android:textStyle="bold"
-                    app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+                    app:layout_constraintBottom_toBottomOf="@+id/backBtn"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/imageView3"
-                    app:layout_constraintTop_toTopOf="@+id/imageView3"
+                    app:layout_constraintStart_toEndOf="@+id/backBtn"
+                    app:layout_constraintTop_toTopOf="@+id/backBtn"
                     app:layout_constraintVertical_bias="0.466" />
 
                 <ImageView
@@ -102,7 +103,7 @@
                         android:text="Account Info"
                         android:textColor="@color/black"
                         android:textSize="20sp"
-                        android:textStyle="bold">
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView7"
@@ -119,7 +120,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="24dp"
-                        android:paddingBottom="20dp"
+                        android:layout_marginEnd="24dp"
+                        android:paddingBottom="22dp"
                         android:text="@string/address"
                         android:textColor="@color/black"
                         android:textSize="16sp" />
@@ -140,7 +142,31 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="24dp"
                         android:paddingBottom="20dp"
-                        android:text="@string/phoneno" />
+                        android:text="@string/phoneno"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:id="@+id/editButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="24dp"
+                        android:backgroundTint="@color/buttonColorFirst"
+                        android:text="@string/edit"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:id="@+id/logOutButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="24dp"
+                        android:backgroundTint="@color/buttonColorFirst"
+                        android:text="@string/logout"
+                        android:textSize="16sp" />
 
                 </LinearLayout>
             </androidx.constraintlayout.widget.ConstraintLayout>

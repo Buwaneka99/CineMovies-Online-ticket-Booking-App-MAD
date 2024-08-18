@@ -3,7 +3,11 @@
     <string name="signin">Sign In</string>
     <string name="profile_name">Buwaneka Wijesinghe</string>
     <string name="name">Name : Buwaneka Wijesinghe</string>
-    <string name="address">Address : 54/D, Nawagamuwa,Nittambuwa</string>
+    <string name="address">Address : 54/D, Nawagamuwa,
+                  Nittambuwa</string>
+
     <string name="email">Email : dinethbuwaneka456@gmail.com</string>
-    <string name="phoneno">0771000100</string>
+    <string name="phoneno">Phone N0 : 0771000100</string>
+    <string name="edit">Edit Details</string>
+    <string name="logout">Log Out</string>
 </resources>
