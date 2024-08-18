@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:id="@+id/nev_home"
+        android:icon="@drawable/btn_4"/>
+    <item android:title="Seat"
+        android:id="@+id/nev_seat"
+        android:icon="@drawable/seat"/>
+    <item android:title="Ticket"
+        android:id="@+id/nev_ticket"
+        android:icon="@drawable/ticket"/>
+    <item android:title="Profile"
+        android:id="@+id/nev_profile"
+        android:icon="@drawable/home_btn"/>
+</menu>
