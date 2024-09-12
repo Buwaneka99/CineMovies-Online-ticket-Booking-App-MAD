@@ -6,30 +6,102 @@
     android:layout_height="match_parent"
     android:background="@color/bgPrimaryColor">
 
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="412dp"
-        android:layout_height="116dp"
-        android:layout_marginTop="-5dp"
-        android:layout_marginEnd="2dp"
-        android:orientation="vertical"
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <ImageView
-            android:id="@+id/imageView2"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="119dp"
-            app:srcCompat="@drawable/logo_crop2" />
-    </LinearLayout>
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
 
-    <LinearLayout
-        android:layout_width="412dp"
-        android:layout_height="619dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"/>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="412dp"
+                    android:layout_height="127dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/Logo_crop" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <EditText
+                android:id="@+id/editTextText3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="15dp"
+                android:padding="13dp"
+                android:background="@drawable/input_text_background"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="Search Movies...."
+                android:textColorHint="@color/textColorFirst"
+                android:drawableStart="@drawable/search"
+                android:drawablePadding="10dp"/>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Movies"
+                android:textColor="@color/textColorSecond"
+                android:textSize="16sp"
+                android:layout_margin="24dp"/>
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="match_parent"
+                android:layout_height="384dp"
+                app:srcCompat="@drawable/thor_movie" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_margin="24dp"
+                android:background="@color/buttonColorFirst"
+                android:padding="8dp"
+                android:radius="50dp">
+
+                <ImageView
+                    android:id="@+id/imageView18"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/home_btn" />
+
+                <ImageView
+                    android:id="@+id/imageView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/seat" />
+
+                <ImageView
+                    android:id="@+id/imageView20"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ticket" />
+
+                <ImageView
+                    android:id="@+id/imageView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/btn_4" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

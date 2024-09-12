@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgPrimaryColor"
+    tools:context=".TicketActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="127dp">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/Logo_crop" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="24dp"
+            android:text="@string/movie"
+            android:textColor="@color/textColorFirst"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="213dp"
+            android:layout_height="260dp"
+            android:layout_marginStart="100dp"
+            app:srcCompat="@drawable/thor_movie" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/ticket_select"
+            android:textColor="@color/textColorFirst"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <Button
+                android:id="@+id/ticketButton1"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginEnd="14dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/buttonColorFirst"
+                android:text="11.30"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/ticketButton2"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="28dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/buttonColorFirst"
+                android:text="1.30"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <Button
+                android:id="@+id/ticketButton3"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginEnd="14dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/buttonColorFirst"
+                android:text="4.30"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/ticketButton4"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="28dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/buttonColorFirst"
+                android:text="7.30"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
