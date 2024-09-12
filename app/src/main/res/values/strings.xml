@@ -10,4 +10,10 @@
     <string name="phoneno">Phone N0 : 0771000100</string>
     <string name="edit">Edit Details</string>
     <string name="logout">Log Out</string>
+    <string name="movie">Thor - The Dark World</string>
+    <string name="moveiDescription">\"Thor: The Dark World\" follows Thor as he battles the Dark Elves, led by Malekith,
+        to save the Nine Realms from an ancient, destructive force</string>
+    <string name="seatTopic">Choose the seats you want anywhere</string>
+    <string name="book">Book Now</string>
+    <string name="ticket_select">Select your available time here</string>
 </resources>
