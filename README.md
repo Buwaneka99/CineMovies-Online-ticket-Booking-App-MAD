@@ -1,2 +1,2 @@
-# CineMovies - Online ticket Booking App 
+# CineMovies - Online Ticket Booking App 
 Online tickets booking mobile application developed using Kotlin.
